@@ -1,4 +1,4 @@
-package com.netfocus.alarms.scoring.test;
+package com.netfocus.alarms.scoring;
 
 import junit.framework.Assert;
 
