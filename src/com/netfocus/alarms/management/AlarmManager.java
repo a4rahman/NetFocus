@@ -101,4 +101,17 @@ public class AlarmManager {
 	public Threshold getThreshold(Metric metric) {
 	    return metric != null ? metricToThresholdMap.get(metric) : null;
 	}
+
+	public void clearAllAlarmsAndThresholds() {
+	    clearAllAlarms();
+	    clearAllThresholds();
+	}
+
+	public void clearAllAlarms() {
+	    nodeToAlarmMap.clear();
+	}
+
+	public void clearAllThresholds() {
+	    metricToThresholdMap.clear();
+	}
 }
