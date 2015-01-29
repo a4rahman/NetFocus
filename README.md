@@ -5,3 +5,4 @@ For a network administrator (i.e., a user of a monitoring system), it is often u
 The NetFocus project takes this real world situation and provides an algorithm to identify the most critical issues in a user's network, in an attempt to empower the user to gradually bring the network back to good health by focusing on the most important problems first.
 
 Netfocus offers a simple model of a monitoring system and the algorithm uses metric values and alarm severities to determine which of the currently active alarms is of the highest importance for a single network node.
+
